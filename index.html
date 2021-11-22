@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 class="title-encode-decode"><i>Codificação</i> e <i>Decodificação</i> de texto</h3>
+    <nav class="nav_tabs">
+        <ul>
+            <li>
+                <a href="#aba-1" type="radio" name="tabs" class="tab_label" id="base64">Base64</a>
+            </li>
+            <li>
+                <a href="#aba-2" type="radio" name="tabs" class="tab_label" id="upperCase">Upper Case</a>
+                <div class="tab-content">
+                   
+                </div>
+            </li>
+            <li>
+                <a href="#aba-3" type="radio" name="tabs" class="tab_label" id="capitalCase" style="padding-right: 25px; height: 23px; width: 108px;">Capital Case</a> 
+            </li>
+            <li>
+                <a href="#aba-4" type="radio" name="tabs" class="tab_label" id="lowerCase">Lower Case</a>
+            </li>
+            <li>
+                <a href="#aba-5" type="radio" name="tabs" class="tab_label" id="properCase">Proper Case</a>
+            </li>
+        </ul>
+        <textarea name="text-encode-decode" id="text-encode-decode" cols="100" rows="12"></textarea>
+        <div class="buttons"> 
+            <button id="encode">Codificar</button>
+            <button id="decode">Decodificar</button>
+        </div> 
+    </nav>
+
+
+    <script src="main.js"></script> 
+
+</body>
+</html>
