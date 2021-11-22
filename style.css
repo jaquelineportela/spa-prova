@@ -67,6 +67,18 @@ h3{
 #base64:hover{
     background-color: #C76862;
 }
+#upperCase:hover{
+    background-color: #C76862;
+}
+#capitalCase:hover{
+    background-color: #C76862;
+}
+#lowerCase:hover{
+    background-color: #C76862;
+}
+#properCase:hover{
+    background-color: #C76862;
+}
 #text-encode-decode{
     position: absolute;
     left: 50%;

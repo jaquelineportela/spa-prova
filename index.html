@@ -10,24 +10,21 @@
 <body>
     <h3 class="title-encode-decode"><i>Codificação</i> e <i>Decodificação</i> de texto</h3>
     <nav class="nav_tabs">
-        <ul>
+        <ul class="active">
             <li>
-                <a href="#aba-1" type="radio" name="tabs" class="tab_label" id="base64">Base64</a>
+                <a href="#aba-1" data-target="Base64" type="radio" name="tabs" class="tab_label" id="base64" onclick="base64()">Base64</a>
             </li>
             <li>
-                <a href="#aba-2" type="radio" name="tabs" class="tab_label" id="upperCase">Upper Case</a>
-                <div class="tab-content">
-                   
-                </div>
+                <a href="#aba-2" data-target="upperCase" type="radio" name="tabs" class="tab_label" id="upperCase" onclick="upperCase()">Upper Case</a>
             </li>
             <li>
-                <a href="#aba-3" type="radio" name="tabs" class="tab_label" id="capitalCase" style="padding-right: 25px; height: 23px; width: 108px;">Capital Case</a> 
+                <a href="#aba-3" data-target="capitalCase" type="radio" name="tabs" class="tab_label" id="capitalCase" style="padding-right: 25px; height: 23px; width: 108px;" onclick="capitalCase()">Capital Case</a> 
             </li>
             <li>
-                <a href="#aba-4" type="radio" name="tabs" class="tab_label" id="lowerCase">Lower Case</a>
+                <a href="#aba-4" data-target="lowerCase" type="radio" name="tabs" class="tab_label" id="lowerCase" onclick="lowerCase()">Lower Case</a>
             </li>
             <li>
-                <a href="#aba-5" type="radio" name="tabs" class="tab_label" id="properCase">Proper Case</a>
+                <a href="#aba-5" data-target="properCase" type="radio" name="tabs" class="tab_label" id="properCase" onclick="properCase()">Proper Case</a>
             </li>
         </ul>
         <textarea name="text-encode-decode" id="text-encode-decode" cols="100" rows="12"></textarea>
